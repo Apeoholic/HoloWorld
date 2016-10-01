@@ -10,7 +10,7 @@ public static class UnityHelperMenu
         var folders = new string[] {"Scripts","Prefabs","Meshes","Textures","Materials","Sounds","Resources","Scenes" };
         foreach (var f in folders)
         {
-            AssetDatabase.CreateFolder("Assets", f);
+            AssetDatabase.CreateFolder("Assets", f);   
         }
     }
 }

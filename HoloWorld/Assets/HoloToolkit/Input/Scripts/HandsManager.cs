@@ -17,7 +17,7 @@ namespace HoloToolkit.Unity
         /// </summary>
         public bool HandDetected
         {
-            get { return trackedHands.Count > 0; }
+            get { return true; }
         }
 
         private HashSet<uint> trackedHands = new HashSet<uint>();
